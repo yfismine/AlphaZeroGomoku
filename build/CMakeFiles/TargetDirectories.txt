@@ -1,0 +1,5 @@
+/media/sheep/0CF42A65F42A50EE/毕设/Gomoku/build/CMakeFiles/rebuild_cache.dir
+/media/sheep/0CF42A65F42A50EE/毕设/Gomoku/build/CMakeFiles/edit_cache.dir
+/media/sheep/0CF42A65F42A50EE/毕设/Gomoku/build/CMakeFiles/CppLibs.dir
+/media/sheep/0CF42A65F42A50EE/毕设/Gomoku/build/pybind11.out/CMakeFiles/rebuild_cache.dir
+/media/sheep/0CF42A65F42A50EE/毕设/Gomoku/build/pybind11.out/CMakeFiles/edit_cache.dir
