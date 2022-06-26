@@ -1,4 +1,4 @@
-# Alpha_Gomoku
+# AlphaZero_Gomoku
 &emsp;&emsp;本项目主要是采用蒙特卡洛搜索树与残差神经网络实现的一个可在小规模硬 件设施上短期训练一个拥有较强棋力的五子棋 AI。参考 AlphaGo Zero 原始论文 《Mastering the game of Go without human knowledge》实现的一个在五子棋游 戏上的复现，实现过程中采用相应的原创性方法进行改进，使其算法更加适应项 目需求并最终取得的较好的效果。MCTS 部分使用 C++编写的带虚拟损失的树并 行版本的 Python 扩展，训练管道与神经网络部分均使用 Python 编写。
 
 
