@@ -2,7 +2,7 @@
 &emsp;&emsp;本项目主要是采用蒙特卡洛搜索树与残差神经网络实现的一个可在小规模硬 件设施上短期训练一个拥有较强棋力的五子棋 AI。参考 AlphaGo Zero 原始论文 《Mastering the game of Go without human knowledge》实现的一个在五子棋游 戏上的复现，实现过程中采用相应的原创性方法进行改进，使其算法更加适应项 目需求并最终取得的较好的效果。MCTS 部分使用 C++编写的带虚拟损失的树并 行版本的 Python 扩展，训练管道与神经网络部分均使用 Python 编写。
 
 
-![image1](https://github.com/yfismine/AlphaZero_Gomoku/raw/main/Image/win1.png)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![image2](https://github.com/yfismine/AlphaZero_Gomoku/raw/main/Image/Win2.png)  
+![image1](https://github.com/yfismine/AlphaZero_Gomoku/raw/main/Image/win1.png)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![image2](https://github.com/yfismine/AlphaZero_Gomoku/raw/main/Image/win2.png)  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 模型与弈心的部分对弈棋谱（模型执黑）  
 
 &emsp;&emsp;由于本人只在一块GTX1060的笔记本显卡上训练了3天，所以其实模型性能上还是可以有很大的提升的，但是这并不影响本项目的模型仍有棋力非常强劲，在无禁手规则下，理论上先手条件下人类玩家几乎无法战胜，后手条件下也以极大胜率战胜人类玩家，对战弈心的职业四段棋力,在先手条件下，也有小概率可以获胜（大约10局赢1到2局)
