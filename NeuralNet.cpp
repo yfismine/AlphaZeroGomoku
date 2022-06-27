@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include "NeuralNet.h"
 using namespace std;
 NeuralNet::NeuralNet(string model_path, bool use_gpu, unsigned int batch_size):
@@ -77,8 +76,3 @@ void NeuralNet::infer()
         promises[i].set_value(std::move(temp));
     }
 }
-=======
-version https://git-lfs.github.com/spec/v1
-oid sha256:9ded2745f9b1f31d25dc4b524786b9983ad527e4a602da9cbb4c2fdd5792bf7b
-size 2375
->>>>>>> 2673dac (pre)

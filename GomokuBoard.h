@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #pragma once
 #include<vector>
 #include<utility>
@@ -36,8 +35,3 @@ private:
 	inline PieceType anotherColor(PieceType color);
 };
 
-=======
-version https://git-lfs.github.com/spec/v1
-oid sha256:b397abf91020c3f57e926c5a2210f57003db632bf57c86f975cc74a5a704365f
-size 1221
->>>>>>> 2673dac (pre)

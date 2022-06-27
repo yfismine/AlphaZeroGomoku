@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #pragma once
 #include <torch/script.h>
 #include<mutex>
@@ -43,8 +42,3 @@ private:
 	bool use_gpu;
 };
 
-=======
-version https://git-lfs.github.com/spec/v1
-oid sha256:d57d6e2b1cabe023b2502691fc7010500da62d8eaff01c8c0beadf7617e8772f
-size 1172
->>>>>>> 2673dac (pre)

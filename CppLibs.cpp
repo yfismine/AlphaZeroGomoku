@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include <pybind11/pybind11.h>
 #include<pybind11/stl.h>
 #include"GomokuBoard.h"
@@ -32,8 +31,3 @@ PYBIND11_MODULE(CppLibs, m)
 		.def("getActionProbs", &MCTS::getActionProbs, "gomoku"_a, "temp"_a = 1)
 		.def("update", &MCTS::update, "last_move"_a);
 }
-=======
-version https://git-lfs.github.com/spec/v1
-oid sha256:1e634dc0a2661c90df0cc7bfece7c00d10c43f1458428de5cbc66fe62678792e
-size 1544
->>>>>>> 2673dac (pre)

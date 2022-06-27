@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import os
 from ctypes import windll
 import win32api, win32con, win32gui
@@ -142,8 +141,3 @@ def restart():
 if __name__ == "__main__":
     #self_play()
     start()
-=======
-version https://git-lfs.github.com/spec/v1
-oid sha256:12501ffd6fe5b03f4aab27037cf114887940530202950572c10f556ff58ebd78
-size 4409
->>>>>>> 2673dac (pre)

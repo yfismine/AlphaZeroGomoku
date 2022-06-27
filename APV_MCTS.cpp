@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ﻿#include "APV_MCTS.h"
 #include<locale>
 #include<cfloat>
@@ -296,8 +295,3 @@ void MCTS::tree_deleter(TreeNode* t)
 		tree_deleter(child);
 	delete t;
 }
-=======
-version https://git-lfs.github.com/spec/v1
-oid sha256:f897f172cbfe9e348ed42927300889b10befb5fd97022e2353c823b1c91b9865
-size 8595
->>>>>>> 2673dac (pre)

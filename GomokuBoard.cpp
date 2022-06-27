@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ﻿#include "GomokuBoard.h"
 #include<exception>
 #include<string>
@@ -77,7 +76,7 @@ void GomokuBoard::executeMove(unsigned int action)
 		++board_cnt;
 	}
 	else
-		throw exception(std::logic_error("illegal row or col"));
+		throw exception("illegal row or col");
 }
 
 torch::Tensor GomokuBoard::getBoardData()
@@ -261,8 +260,3 @@ inline GomokuBoard::PieceType GomokuBoard::anotherColor(PieceType color)
 {
 	return color == PieceType::BLACK ? PieceType::WHITE : PieceType::BLACK;
 }
-=======
-version https://git-lfs.github.com/spec/v1
-oid sha256:f6986f98d67db36712a67e869af27a8207c3e33d557c0714f11b8db295ce2491
-size 7077
->>>>>>> 2673dac (pre)

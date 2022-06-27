@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #pragma once
 #include<unordered_map>
 #include<string>
@@ -61,8 +60,3 @@ private:
 	std::bernoulli_distribution b_dist;
 	
 };
-=======
-version https://git-lfs.github.com/spec/v1
-oid sha256:93739bff675ab20bdc46d6d922ccad1200dd56f0573f74b4c41eac5e02db1fad
-size 1811
->>>>>>> 2673dac (pre)

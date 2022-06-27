@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include<iostream>
 #include<unordered_map>
 #include<unordered_set>
@@ -88,8 +87,3 @@ int main(void)
 	cout << "下一步最佳落子位置：" << getMax_index(probs) << endl;
 	cout << "胜率：" << mcts.getValue() << endl;
 }
-=======
-version https://git-lfs.github.com/spec/v1
-oid sha256:784793bbbbda18bc6857a97dc747a1730a970b98d56f74ad36cf9fde1e662ed7
-size 2308
->>>>>>> 2673dac (pre)

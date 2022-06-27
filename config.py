@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 config = {
     # GomokuBoard
     "n": 15,
@@ -34,8 +33,3 @@ config = {
 
 }
 config["action_size"] = config["n"] * config["n"]
-=======
-version https://git-lfs.github.com/spec/v1
-oid sha256:6622eb0de86ee98222ea48e4b71909af57a2b641e68bab2403730fa6b1fa8ce4
-size 910
->>>>>>> 2673dac (pre)

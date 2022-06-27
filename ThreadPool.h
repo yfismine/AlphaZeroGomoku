@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #pragma once
 
 #include <vector>
@@ -95,8 +94,3 @@ private:
     std::atomic<bool> run;                    // is running
     std::atomic<unsigned int> idl_thread_num; // idle thread number
 };
-=======
-version https://git-lfs.github.com/spec/v1
-oid sha256:ad88ad1044226ef77216ecded25b023783264f5e7db9f956489f64cf48e85105
-size 3071
->>>>>>> 2673dac (pre)

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import time
 
 import torch
@@ -192,8 +191,3 @@ if __name__ == '__main__':
     #net = PolicyValueNet(15, True,model_path="./Models/Pytorch/current_model.pt")
     #net.save_model("./Models/Pytorch/current_model.pt", "./Models/Libtorch/current_model.pt")
     #net.save_model("./Models/Pytorch/best_model.pt", "./Models/Libtorch/best_model.pt")
-=======
-version https://git-lfs.github.com/spec/v1
-oid sha256:105c9475b7bf9fcf285d566b5161ed856ea599e63599837c63a072d3dc6dece5
-size 8395
->>>>>>> 2673dac (pre)

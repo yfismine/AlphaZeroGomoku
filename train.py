@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from policy_value_net import PolicyValueNet
 from CppLibs import GomokuBoard, NeuralNet, MCTS
 import numpy as np
@@ -338,8 +337,3 @@ if __name__ == "__main__":
     #pipeline.run_byYixin()
     '''for i in range(10000):
         pipeline.train(i)'''
-=======
-version https://git-lfs.github.com/spec/v1
-oid sha256:ade2b0c97091f2dc77077e19d462244f542e90d8bf8226c7324d3e767137d136
-size 18290
->>>>>>> 2673dac (pre)

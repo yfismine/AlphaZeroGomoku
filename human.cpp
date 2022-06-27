@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include"GomokuBoard.h"
 #include"APV_MCTS.h"
 #include"NeuralNet.h"	
@@ -58,8 +57,3 @@ int main(void)
 		cout << "white" << endl;
 	cout << cnt << endl;
 }
-=======
-version https://git-lfs.github.com/spec/v1
-oid sha256:1559666aba0f32b74b318eb2f406f7041d95f28326803ea44700ab7c43e8858f
-size 1397
->>>>>>> 2673dac (pre)
