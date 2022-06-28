@@ -21,8 +21,8 @@ int getMax_index(vector<double>& vec)
 int main(void)
 {
 	GomokuBoard board;
-	//NeuralNet net("F:\\±ÏÉè\\python½Å±¾\\venv\\Include\\Models\\Libtorch\\best_model.pt", true, 64);
-	NeuralNet net("F:\\GoogleDownload\\current_model.pt", true, 64);
+	//NeuralNet net("F:\\æ¯•è®¾\\pythonè„šæœ¬\\venv\\Include\\Models\\Libtorch\\best_model.pt", true, 64);
+	NeuralNet net("Models/Libtorch/current_model.pt", true, 64);
 	MCTS mcts1(&net, 64, 2500, 225, 5, 3, 0);
 	int cnt = 0;
 	int index;
@@ -35,8 +35,8 @@ int main(void)
 			plicy_value = mcts1.getActionProbs(&board, 0);
 			auto t2 = clock();
 			index = getMax_index(plicy_value);
-			cout << "µ±Ç°AIÊ¤Àû¸ÅÂÊ:" << mcts1.getValue() << endl;
-			cout << "AIË¼¿¼ºÄÊ±£º" << t2 - t1 << endl;
+			cout << "å½“å‰AIèƒœåˆ©æ¦‚çŽ‡:" << mcts1.getValue() << endl;
+			cout << "AIæ€è€ƒè€—æ—¶ï¼š" << t2 - t1 << endl;
 		}
 		else
 		{
