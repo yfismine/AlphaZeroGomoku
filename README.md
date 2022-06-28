@@ -7,7 +7,7 @@
   
   
 ![image3](https://github.com/yfismine/AlphaZero_Gomoku/raw/main/Image/run_screenshot.png)  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**人机对弈运行截图**  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**人机对弈运行截图**  
 
 &emsp;&emsp;由于本人只在一块GTX1060的笔记本显卡上训练了3天，所以其实模型性能上还是可以有很大的提升的，但是这并不影响本项目的模型仍有棋力非常强劲，在无禁手规则下，理论上先手条件下人类玩家几乎无法战胜，后手条件下也以极大胜率战胜人类玩家，对战弈心的职业四段棋力,在先手条件下，也有小概率可以获胜（大约10局赢1到2局)
 # 项目实现的功能
