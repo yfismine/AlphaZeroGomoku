@@ -33,7 +33,7 @@ int getMax_index(vector<double>& vec)
 int main(void)
 {
 	GomokuBoard board;
-	NeuralNet net("F:\\±œ…Ë\\pythonΩ≈±æ\\venv\\Include\\Models\\Libtorch\\best_model.pt", true, 64);
+	NeuralNet net("Models/Libtorch/best_model.pt", true, 64);
 	//NeuralNet net("C:\\Users\\Pilgrim\\Desktop\\Libtorch\\best_model.pt", true, 64);
 	//NeuralNet net("F:\\GoogleDownload\\best_model1.pt", true, 64);
 	//NeuralNet net("F:\\GoogleDownload\\current_model.pt", true, 64);
@@ -84,6 +84,6 @@ int main(void)
 	cout << board.getBoardData() << endl;
 	board.display();
 	auto probs = mcts.getActionProbs(&board);
-	cout << "œ¬“ª≤Ω◊Óº—¬‰◊”Œª÷√£∫" << getMax_index(probs) << endl;
-	cout << " §¬ £∫" << mcts.getValue() << endl;
+	cout << "‰∏ã‰∏ÄÊ≠•ÊúÄ‰Ω≥ËêΩÂ≠ê‰ΩçÁΩÆÔºö" << getMax_index(probs) << endl;
+	cout << "ËÉúÁéáÔºö" << mcts.getValue() << endl;
 }
