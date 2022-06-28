@@ -23,7 +23,7 @@ int main(void)
 	GomokuBoard board;
 	//NeuralNet net("F:\\毕设\\python脚本\\venv\\Include\\Models\\Libtorch\\best_model.pt", true, 64);
 	NeuralNet net("Models/Libtorch/current_model.pt", true, 64);
-	MCTS mcts1(&net, 64, 2500, 225, 5, 3, 0);
+	MCTS mcts1(&net, 64, 1500, 225, 5, 3, 0);
 	int cnt = 0;
 	int index;
 	while (board.getBoardState() == GomokuBoard::BoardState::NO_END)
